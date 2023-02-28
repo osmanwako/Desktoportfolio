@@ -69,8 +69,9 @@ This is my first mobile version port folio microverse project
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
 [live Demo](https://osmanwako.github.io/Desktoportfolio)
+<!-- GETTING STARTED -->
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
