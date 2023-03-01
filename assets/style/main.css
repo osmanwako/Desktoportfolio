@@ -115,25 +115,6 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   margin-left: 40px;
-  transition: background-color 2s, transform 2s;
-  animation-name: rotatelogo;
-  animation-duration: 4s;
-}
-
-.navbar-logo:hover {
-  cursor: pointer;
-  background-color: #e5e5e5;
-  transform: rotate(-180deg);
-}
-
-@keyframes rotatelogo {
-  from {
-    rotate: 0deg;
-  }
-
-  to {
-    rotate: 360deg;
-  }
 }
 
 .logo-link {
@@ -287,11 +268,6 @@ header {
   height: 100%;
 }
 
-.img-content:hover {
-  opacity: 0.9;
-  transform: scale(1.2, 1.2);
-}
-
 .flexr-default {
   display: flex;
   align-items: center;
@@ -329,12 +305,6 @@ header {
   padding: 10px;
   background-color: #ebebff;
   border-radius: 8px;
-  transition: color 2s, background-color 4s;
-}
-
-.lang-link:hover {
-  color: #fff;
-  background-color: #6070ff;
 }
 
 .btn-more {
