@@ -501,6 +501,10 @@ header {
   left: 40%;
 }
 
+.lbl-interaction {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .mobnavbar-link {
     display: block;
