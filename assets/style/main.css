@@ -166,6 +166,61 @@ header {
   margin-bottom: 0;
 }
 
+@keyframes rotatedresume {
+  from {
+    color: blue;
+    transform: rotateY(0deg);
+  }
+
+  to {
+    color: green;
+    transform: rotateY(360deg);
+  }
+}
+
+.resume-container {
+  position: relative;
+  border-radius: 50%;
+  width: 340px;
+  height: 280px;
+  animation: rotatedresume 2s linear 2;
+  animation-fill-mode: forwards;
+}
+
+.resume {
+  width: 210px;
+  height: 40px;
+  border: 1px solid #2230d2;
+  position: absolute;
+  text-align: center;
+}
+
+.resume-z {
+  display: block;
+  transform: rotateZ(-60deg);
+  top: 100px;
+  left: 0;
+}
+
+.resume-y {
+  display: block;
+  transform: rotateZ(60deg);
+  top: 100px;
+  left: 130px;
+}
+
+.resume-x {
+  display: block;
+  left: 70px;
+  top: 200px;
+}
+
+.resume:hover {
+  cursor: grabbing;
+  animation: rotatedresume 4s linear 2;
+  animation-fill-mode: backwards;
+}
+
 .grid-item {
   margin-left: 30px;
   margin-right: 30px;
@@ -444,6 +499,10 @@ header {
   border: 5px solid #000;
   bottom: 10px;
   left: 40%;
+}
+
+.lbl-interaction {
+  display: none;
 }
 
 @media (max-width: 768px) {
