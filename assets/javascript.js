@@ -22,4 +22,8 @@ closemenulink.addEventListener('click', closeMenu);
 
 linkall.forEach(respondlink)
 
+<<<<<<< HEAD
 hamburgerlink.addEventListener('click', showmenu)
+=======
+hamburgerlink.addEventListener('click', showmenu)
+>>>>>>> 28fd8824be0b5b43358481337862e7b7decd8150
