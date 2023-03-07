@@ -1,5 +1,4 @@
-
-const popupcontainer = document.querySelector('#popupmenu-container')
+const popupcontainer = document.querySelector('#popupmenu-container');
 
 const hamburgerlink = document.querySelector('#hamburger-link');
 
@@ -20,10 +19,6 @@ function respondlink(link) {
 
 closemenulink.addEventListener('click', closeMenu);
 
-linkall.forEach(respondlink)
+linkall.forEach(respondlink);
 
-<<<<<<< HEAD
-hamburgerlink.addEventListener('click', showmenu)
-=======
-hamburgerlink.addEventListener('click', showmenu)
->>>>>>> 28fd8824be0b5b43358481337862e7b7decd8150
+hamburgerlink.addEventListener('click', showmenu);
