@@ -10,6 +10,7 @@
     />
     <link rel="icon" type="image/*" href="assets/images/portfolio.png" alt="Osman"/>
     <link rel="stylesheet" href="./assets/style/main.css" />
+    <script src="./assets/javascript.js" defer></script>
     <title>Desktop version Portfolio</title>
   </head>
   <body>
@@ -18,11 +19,12 @@
         <ul class="navbar-logo">
           <li><a class="logo-link txt2">My Logo</a></li>
         </ul>
-        <ul class="navbar-list">
-          <li class="mobnavbar-link"><a class="logo-link txt2">&#9776;</a></li>
-          <li class="desknavbar-link"><a class="navbar-link">Portfolio</a></li>
-          <li class="desknavbar-link"><a class="navbar-link">About</a></li>
-          <li class="desknavbar-link"><a class="navbar-link">Contact</a></li>
+        <ul class="navbar-list" id="popupmenu-container">
+          <li class="desknavbar-link" id="list-closemenu"><a class="navbar-link" id="link-closemenu">&#215;</a></li>
+          <li class="mobnavbar-link"><a class="logo-link txt2" id="hamburger-link">&#9776;</a></li>
+          <li class="desknavbar-link navigation-links"><a class="navbar-link" href="#myportfolio-section">Portfolio</a></li>
+          <li class="desknavbar-link navigation-links"><a class="navbar-link" href="#aboutmyself-section">About</a></li>
+          <li class="desknavbar-link navigation-links"><a class="navbar-link" href="#contactme-section">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -84,7 +86,7 @@
           <h2 class="resume resume-x">Osman Wako</h2>
         </div>
       </section>
-      <section class="grid-item grid-item-2">
+      <section class="grid-item grid-item-2" id="myportfolio-section">
         <div class="work-container bg-white">
           <div class="section-img mall-30">
             <img id="workimg1" alt="work activity"
@@ -121,7 +123,7 @@
               <li><a class="fw-5 fs-12 txt2 lang-link">Javascript</a></li>
             </ul>
             <div class="mt-30">
-              <button class="btn-action btn-more txt5 fw-5 fs-17">
+              <button type="button" class="btn-action btn-more txt5 fw-5 fs-17">
                 See Project
               </button>
             </div>
@@ -158,7 +160,7 @@
               <li><a class="fw-5 fs-12 txt2 lang-link">Javascript</a></li>
             </ul>
             <div class="mt-30">
-              <button class="btn-action btn-more txt5 fw-5 fs-17">
+              <button type="button" class="btn-action btn-more txt5 fw-5 fs-17">
                 See Project
               </button>
             </div>
@@ -208,7 +210,7 @@
               <li><a class="fw-5 fs-12 txt2 lang-link">Javascript</a></li>
             </ul>
             <div class="mt-30">
-              <button class="btn-action btn-more txt5 fw-5 fs-17">
+              <button type="button" class="btn-action btn-more txt5 fw-5 fs-17">
                 See Project
               </button>
             </div>
@@ -244,7 +246,7 @@
               <li><a class="fw-5 fs-12 txt2 lang-link">Javascript</a></li>
             </ul>
             <div class="mt-30">
-              <button class="btn-action btn-more txt5 fw-5 fs-17">
+              <button type="button" class="btn-action btn-more txt5 fw-5 fs-17">
                 See Project
               </button>
             </div>
@@ -257,7 +259,7 @@
           </div>
         </div>
       </section>
-      <section class="grid-item grid-item-3 bg-white">
+      <section class="grid-item grid-item-3 bg-white" id="aboutmyself-section">
         <span class="about-container">
           <div class="about-myself mall-30">
             <h1 class="fsw-7 mlr-20">
@@ -313,7 +315,7 @@
               </li>
             </ul>
             <p class="mlr-20">
-              <button class="btn-action btn-more txt5 fw-5 fs-17">
+              <button type="button" class="btn-action btn-more txt5 fw-5 fs-17">
                 See Project
               </button>
             </p>
@@ -347,7 +349,7 @@
         </div>
       </span>
       </section>
-      <section class="grid-item grid-item-4 bg-white">
+      <section class="grid-item grid-item-4 bg-white" id="contactme-section">
         <div class="contact-container">
           <h1 class="contact-content fsw-7 txtw mall-30">Contact Me</h1>
           <p class="contact-content contact-title mlr-20">
