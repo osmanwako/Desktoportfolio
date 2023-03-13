@@ -96,7 +96,12 @@ Install this project with:
 👤 **Author1**
 
 - GitHub: [@Osmanwako](https://github.com/osmanwako)
-- LinkedIn: [Osmanwako](https://www.linkedin.com/in/osman-wako-08663825a/)
+- LinkedIn: [Osmanwako](https://www.linkedin.com/in/benson-njuguna-008146242/)
+
+👤 **Author2**
+
+- GitHub: [@Benson](https://github.com/Bennyjoez/Portfoliomodaldetails/tree/feature_popupdetails)
+- LinkedIn: [@Benson](https://www.linkedin.com/in/benson-njuguna-008146242/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
